@@ -12,7 +12,7 @@ class SearchBar extends Component {
     }
 
     this.onInputChange = this.onInputChange.bind(this);
-    this.onFormSubmit = this.onFormSubmit.bind(this);
+    this.formOnSubmit = this.formOnSubmit.bind(this);
   }
 
   onInputChange(event) {
