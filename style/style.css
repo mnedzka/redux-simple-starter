@@ -15,3 +15,8 @@ svg {
 .input-group-button {
     margin-left: 15px;
 }
+
+td:first-of-type, td:first-of-type > div {
+    height: 200px;
+    width: 250px;
+}
